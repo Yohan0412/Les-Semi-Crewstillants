@@ -92,6 +92,42 @@ export default function Home() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      <div className="projetPresentation">
+        <h2>Notre projet</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+          architecto, delectus molestias modi deserunt at, harum dolores placeat
+          inventore, sequi minima accusamus pariatur nisi voluptatibus deleniti?
+          Odio quia aspernatur possimus!
+        </p>
+      </div>
+      <div className="continentHome container text-center">
+        <img
+          src="https://i.ebayimg.com/images/g/YnoAAOSwcvdjC41I/s-l400.jpg"
+          alt=""
+          className="northamerica"
+        />
+        <img
+          src="http://www.americas-fr.com/tourisme/wp-content/uploads/2011/02/south-american-airpass.jpg"
+          alt=""
+          className="southAmerica"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST97nwqzZ-nyk_k3tFOUGXGrjOCwJ8WENtKw&usqp=CAU"
+          alt=""
+          className="asia"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQomdm7APGFSTwXby-p1XZbLERBKS7jOuFgWauNubOa1upgyZlcaq1VE5rV3BzqOfBQsto&usqp=CAU"
+          alt=""
+          className="africa"
+        />
+        <img
+          src="https://voyage.aprr.fr/sites/default/files/styles/content_image/public/2022-06/Carte%20itin%C3%A9raire%202019_V9%20%281%29.jpg?itok=AtirYDPG"
+          alt=""
+          className="europe"
+        />
+      </div>
     </div>
   );
 }

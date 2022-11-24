@@ -92,6 +92,16 @@ export default function Home() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      <div className="videoHome w-100 h-50">
+        <video muted width="100%" controls="controls">
+          <source
+            src="..\assets\pexels-vanessa-loring-5865602.mp4"
+            type="video/mp4"
+          />
+          Vous n'avez pas de navigateur moderne, donc pas de balise video HTML5
+          !
+        </video>
+      </div>
       <div className="projetPresentation">
         <h2>Notre projet</h2>
         <p>
@@ -101,32 +111,36 @@ export default function Home() {
           Odio quia aspernatur possimus!
         </p>
       </div>
-      <div className="continentHome container text-center">
+      <div className="continentHome d-flex flex-column">
+        <div className="america d-flex gap-1 w-100">
+          <img
+            src="https://i.ebayimg.com/images/g/YnoAAOSwcvdjC41I/s-l400.jpg"
+            alt=""
+            className="northamerica w-50"
+          />
+          <img
+            src="https://www.seanews.com.tr/images/haberler/2016_05/161140/latin-america1.jpg"
+            alt=""
+            className="southAmerica w-50"
+          />
+        </div>
         <img
-          src="https://i.ebayimg.com/images/g/YnoAAOSwcvdjC41I/s-l400.jpg"
+          src="https://asset-a.grid.id//crop/0x0:0x0/360x240/photo/2022/06/07/benua-asiajpg-20220607093406.jpg"
           alt=""
-          className="northamerica"
+          className="asia w-100 py-1"
         />
-        <img
-          src="http://www.americas-fr.com/tourisme/wp-content/uploads/2011/02/south-american-airpass.jpg"
-          alt=""
-          className="southAmerica"
-        />
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST97nwqzZ-nyk_k3tFOUGXGrjOCwJ8WENtKw&usqp=CAU"
-          alt=""
-          className="asia"
-        />
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQomdm7APGFSTwXby-p1XZbLERBKS7jOuFgWauNubOa1upgyZlcaq1VE5rV3BzqOfBQsto&usqp=CAU"
-          alt=""
-          className="africa"
-        />
-        <img
-          src="https://voyage.aprr.fr/sites/default/files/styles/content_image/public/2022-06/Carte%20itin%C3%A9raire%202019_V9%20%281%29.jpg?itok=AtirYDPG"
-          alt=""
-          className="europe"
-        />
+        <div className="africaEurope d-flex w-100 gap-1">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQomdm7APGFSTwXby-p1XZbLERBKS7jOuFgWauNubOa1upgyZlcaq1VE5rV3BzqOfBQsto&usqp=CAU"
+            alt=""
+            className="africa w-45"
+          />
+          <img
+            src="https://voyage.aprr.fr/sites/default/files/styles/content_image/public/2022-06/Carte%20itin%C3%A9raire%202019_V9%20%281%29.jpg?itok=AtirYDPG"
+            alt=""
+            className="europe w-75"
+          />
+        </div>
       </div>
     </div>
   );

@@ -1,4 +1,6 @@
 body {
+  width: 100%;
+  /* max-width: 1280px; */
   font-family: -apple-system, BlinkMacSystemFont, "Poppins", sans-serif,
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;

@@ -1,5 +1,6 @@
 import "./App.css";
 import CardList from "@components/CardList";
+import Home from "@pages/Home";
 
 const data = [
   {

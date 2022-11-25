@@ -38,16 +38,16 @@ function CardList({ data }) {
         </select>
       </div>
       <div className="cardlist">
-        {filtre.map((datar, index) => (
+        {filtre.map((datas, index) => (
           <Card
             keys={index}
-            continent={datar.continent}
-            pays={datar.pays}
-            recette={datar.recettes_names}
-            images={datar.images}
-            infos={datar.infos}
-            drapeau={datar.drapeau}
-            lien={datar.lien}
+            continent={datas.continent}
+            pays={datas.pays}
+            recette={datas.recettes_names}
+            images={datas.images}
+            infos={datas.infos}
+            drapeau={datas.drapeau}
+            lien={datas.lien}
           />
         ))}
       </div>

@@ -26,7 +26,7 @@ function FooterList() {
         />
       </div>
       <div className="Footer-copyright">
-        © 2022 Concocté avec 💛 @“Les Semi-crewstillants”
+        ©·2022·Concocté·avec·💛·@“Les·Semi-crewstillants
       </div>
       <i fab fa-facebook-square />
     </footer>

@@ -1,9 +1,4 @@
-import React from "react";
 import CardList from "@components/CardList";
-import Home from "@pages/Home";
-import PageContact from "@pages/PageContact";
-import LesRecettes from "@pages/LesRecette";
-import "./App.css";
 
 const data = [
   {
@@ -95,8 +90,10 @@ const data = [
       "Le dambou est un plat originaire du Niger à base de céréales et de moringa.",
     images:
       "https://img.cuisineaz.com/660x660/2016/08/02/i107824-dambou-couscous-aux-epinards.webp",
-      }
-      {
+
+    lien: "https://recettesvegetales.com/couscous-aux-epinards/",
+  },
+  {
     id: 12,
     continent: "Amérique-Du-Sud",
     pays: "Argentines",
@@ -157,17 +154,8 @@ const data = [
   },
 ];
 
-
-
-function App() {
-  return (
-    <div>
-      <div className="App">
-        <Home />
-        <PageContact />
-      </div>
-    </div>
-  );
+function LesRecettes() {
+  return <CardList data={data} />;
 }
 
-export default App;
+export default LesRecettes;

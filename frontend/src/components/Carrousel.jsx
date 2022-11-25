@@ -4,31 +4,17 @@ import "../Carrousel.css";
 
 function Carrousel() {
   return (
-    <div
-      id="carouselHomeCaptions"
-      className="carousel slide"
-      data-bs-ride="false"
-    >
-      <div className="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselHomeCaptions"
-          data-bs-slide-to="0"
-          className="active"
-          aria-current="true"
-          aria-label="Slide 1"
+    <div className="slider d-flex flex-column">
+      <div className="america d-flex gap-1 w-100">
+        <img
+          src="https://i.ebayimg.com/images/g/YnoAAOSwcvdjC41I/s-l400.jpg"
+          alt=""
+          className="northamerica w-50"
         />
-        <button
-          type="button"
-          data-bs-target="#carouselHomeCaptions"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        />
-        <button
-          type="button"
-          data-bs-target="#carouselHomeCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
+        <img
+          src="https://www.seanews.com.tr/images/haberler/2016_05/161140/latin-america1.jpg"
+          alt=""
+          className="southAmerica w-50"
         />
       </div>
       <div className="carousel-inner">
@@ -66,24 +52,6 @@ function Carrousel() {
           </div>
         </div>
       </div>
-      <button
-        className="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselHomeCaptions"
-        data-bs-slide="prev"
-      >
-        <span className="carousel-control-prev-icon" aria-hidden="true" />
-        <span className="visually-hidden">Previous</span>
-      </button>
-      <button
-        className="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselHomeCaptions"
-        data-bs-slide="next"
-      >
-        <span className="carousel-control-next-icon" aria-hidden="true" />
-        <span className="visually-hidden">Next</span>
-      </button>
     </div>
   );
 }

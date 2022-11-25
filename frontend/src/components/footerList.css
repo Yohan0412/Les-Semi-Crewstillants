@@ -1,25 +1,33 @@
 .footer {
-    background-color: #266B47;
+  background-color: #266b47;
+  height: auto;
+  margin-top: 4px; 
+
 }
 
 .Footer-copyright {
-    color: #F0E442;
+  color: #f0e442;
 }
 
 .logo-footer {
-    display: flex;
+  display: flex;
 }
 
 .taille-logo {
-    width: 150px;
-    height: auto;
+  
+  width: 200px;
+  height: auto;
 }
 
 .social-logo {
-    display: flex;
-    justify-content: center;
-    width: 50px;
-    margin: auto;
-   
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  margin: auto;
+  margin-bottom: 5px;
 }
 
+.vegetation {
+  display: flex;
+
+}

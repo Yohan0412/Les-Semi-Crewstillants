@@ -1,12 +1,13 @@
 import React from "react";
 import FooterList from "@components/FooterList";
+import Carrousel from "@components/Carrousel";
 
 import "../Home.css";
 
 export default function Home() {
   return (
-    <>
-      <div className="home">
+ <Carrousel>
+ <div className="home">
         <div
           id="carouselHomeCaptions"
           className="carousel slide"
@@ -94,16 +95,6 @@ export default function Home() {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
-        <div className="videoHome w-100 h-50">
-          <video muted width="100%" controls="controls">
-            <source
-              src="..\assets\pexels-vanessa-loring-5865602.mp4"
-              type="video/mp4"
-            />
-            Vous n'avez pas de navigateur moderne, donc pas de balise video
-            HTML5 !
-          </video>
-        </div>
         <div className="projetPresentation">
           <h2>Cook & Trip</h2>
           <p>
@@ -142,6 +133,6 @@ export default function Home() {
         </div>
       </div>
       <FooterList />
-    </>
+  </Carrousel>
   );
 }

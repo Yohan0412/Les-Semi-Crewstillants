@@ -4,10 +4,8 @@ import {
   MDBCollapse,
   MDBNavbar,
   MDBNavbarToggler,
-  //   MDBIcon,
   MDBBtn,
 } from "mdb-react-ui-kit";
-
 import "./BurgerMenu.css";
 
 export default function App() {

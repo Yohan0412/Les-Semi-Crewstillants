@@ -1,11 +1,12 @@
 import React from "react";
 import FooterList from "@components/FooterList";
+import Carrousel from "@components/Carrousel";
 
 import "../Home.css";
 
 export default function Home() {
   return (
-    <>
+    <Carrousel>
       <div className="home">
         <div
           id="carouselHomeCaptions"
@@ -132,6 +133,6 @@ export default function Home() {
         </div>
       </div>
       <FooterList />
-    </>
+    </Carrousel>
   );
 }

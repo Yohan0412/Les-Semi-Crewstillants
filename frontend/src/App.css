@@ -4,6 +4,8 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  max-width: 1280px;
 }
 * {
   margin: 0;
@@ -13,6 +15,10 @@ body {
   font: inherit;
   vertical-align: baseline;
   font-family: "Poppins";
+}
+
+img {
+  width: 100%;
 }
 
 code {

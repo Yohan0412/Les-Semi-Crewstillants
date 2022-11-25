@@ -1,15 +1,10 @@
-
 import React from "react";
 import FooterList from "@components/FooterList";
-import logo from "../assets/logo.svg";
-
-import Carrousel from "@components/Carrousel";
 
 import "../Home.css";
 
 export default function Home() {
   return (
-
     <>
       <div className="home">
         <div
@@ -99,16 +94,6 @@ export default function Home() {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
-        <div className="videoHome w-100 h-50">
-          <video muted width="100%" controls="controls">
-            <source
-              src="..\assets\pexels-vanessa-loring-5865602.mp4"
-              type="video/mp4"
-            />
-            Vous n'avez pas de navigateur moderne, donc pas de balise video
-            HTML5 !
-          </video>
-        </div>
         <div className="projetPresentation">
           <h2>Cook & Trip</h2>
           <p>
@@ -137,42 +122,16 @@ export default function Home() {
           </div>
           <img
             src="src/assets/African.jpg"
-
             alt=""
-            className="europe w-75"
+            className="asia w-100 py-1"
           />
-
           <div className="africaEurope d-flex w-100 gap-1">
             <img src="src/assets/Asian.jpg" alt="" className="africa w-50" />
             <img src="src/assets/Europe.jpg" alt="" className="europe w-50" />
           </div>
-
         </div>
       </div>
       <FooterList />
-    </div>
-      <p>
-        Edit <code>App.jsx</code> and save to test HMR updates.
-      </p>
-      <p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        {" | "}
-        <a
-          className="App-link"
-          href="https://vitejs.dev/guide/features.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Vite Docs
-        </a>
-      </p>
-    </header>
+    </>
   );
 }

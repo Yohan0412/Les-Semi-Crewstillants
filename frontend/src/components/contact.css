@@ -1,0 +1,32 @@
+.input-name {
+  border-radius: 9px;
+  width: 100%;
+}
+.input-email {
+  border-radius: 9px;
+  width: 100%;
+}
+
+.contactTextarea {
+  height: 10vh;
+  border-radius: 9px;
+  width: 100%;
+}
+
+.contactFormButton {
+  border-radius: 9px;
+}
+
+@media screen and (min-width: 768px) {
+  .contactTextarea {
+    height: 15vh;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .input-email,
+  .input-name {
+    width: 50%;
+  }
+}

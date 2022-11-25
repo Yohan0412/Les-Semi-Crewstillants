@@ -1,5 +1,6 @@
+import React from "react";
+import PageContact from "@pages/PageContact";
 import Home from "./pages/Home";
-
 import "./App.css";
 
 // const data = [
@@ -135,9 +136,11 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <p>coucou</p>
+    <div>
+      <div className="App">
+        <Home />
+        <PageContact />
+      </div>
     </div>
   );
 }

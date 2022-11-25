@@ -6,8 +6,8 @@ import "../Home.css";
 
 export default function Home() {
   return (
- <Carrousel>
- <div className="home">
+    <Carrousel>
+      <div className="home">
         <div
           id="carouselHomeCaptions"
           className="carousel slide"
@@ -133,6 +133,6 @@ export default function Home() {
         </div>
       </div>
       <FooterList />
-  </Carrousel>
+    </Carrousel>
   );
 }

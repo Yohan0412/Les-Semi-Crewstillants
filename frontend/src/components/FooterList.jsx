@@ -4,11 +4,10 @@ import "./footerList.css";
 function FooterList() {
   return (
     <footer className="footer">
-      <div className="container-fluid logo-footer">
+      <div className="container-fluid logo-footer" />
+      <div className="taille-logo m-3 mt-4v w-25">
+        <img src="src/assets/Cook.svg" alt="Cook & Trip" />
       </div>
-        <div className="taille-logo m-3 mt-4v w-25">
-          <img src="src/assets/Cook.svg" alt="Cook & Trip" />
-        </div>
       <div className="social-logo">
         <img
           className="m-2"

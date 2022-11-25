@@ -107,9 +107,13 @@ export default function Home() {
         <div className="projetPresentation">
           <h2>Cook & Trip</h2>
           <p>
-            Si comme nous vous aimez les bons plats, en famille, entre amies ou encore seul (n'ayez pas honte d'être gourmand😜) <br />
-            alors montez à bord de notre Combi sillonner les routes de la cuisine du monde avec nous. <br />
-            L'idée ?! Vous faire découvrir de nouvelle saveur, de nouvelle destination, émoustiller vos papilles, époustoufler vos invités ! <br />
+            Si comme nous vous aimez les bons plats, en famille, entre amies ou
+            encore seul (n'ayez pas honte d'être gourmand😜) <br />
+            alors montez à bord de notre Combi sillonner les routes de la
+            cuisine du monde avec nous. <br />
+            L'idée ?! Vous faire découvrir de nouvelle saveur, de nouvelle
+            destination, émoustiller vos papilles, époustoufler vos invités !{" "}
+            <br />
             Alors ?! On y va ?! 🚐
           </p>
         </div>
@@ -132,16 +136,8 @@ export default function Home() {
             className="asia w-100 py-1"
           />
           <div className="africaEurope d-flex w-100 gap-1">
-            <img
-              src="src/assets/Asian.jpg"
-              alt=""
-              className="africa w-50"
-            />
-            <img
-              src="src/assets/Europe.jpg"
-              alt=""
-              className="europe w-50"
-            />
+            <img src="src/assets/Asian.jpg" alt="" className="africa w-50" />
+            <img src="src/assets/Europe.jpg" alt="" className="europe w-50" />
           </div>
         </div>
       </div>

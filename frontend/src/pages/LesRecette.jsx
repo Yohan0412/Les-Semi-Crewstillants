@@ -1,6 +1,4 @@
-import "./App.css";
 import CardList from "@components/CardList";
-import Home from "@pages/Home";
 
 const data = [
   {
@@ -156,13 +154,8 @@ const data = [
   },
 ];
 
-function App() {
-  return (
-    <div className="App">
-      <CardList data={data} />
-      <Home />
-    </div>
-  );
+function LesRecettes() {
+  return <CardList data={data} />;
 }
 
-export default App;
+export default LesRecettes;

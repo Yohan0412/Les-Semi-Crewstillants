@@ -1,15 +1,10 @@
-
 import React from "react";
 import FooterList from "@components/FooterList";
-import logo from "../assets/logo.svg";
-
-import Carrousel from "@components/Carrousel";
 
 import "../Home.css";
 
 export default function Home() {
   return (
-
     <>
       <div className="home">
         <div
@@ -137,42 +132,16 @@ export default function Home() {
           </div>
           <img
             src="src/assets/African.jpg"
-
             alt=""
-            className="europe w-75"
+            className="asia w-100 py-1"
           />
-
           <div className="africaEurope d-flex w-100 gap-1">
             <img src="src/assets/Asian.jpg" alt="" className="africa w-50" />
             <img src="src/assets/Europe.jpg" alt="" className="europe w-50" />
           </div>
-
         </div>
       </div>
       <FooterList />
-    </div>
-      <p>
-        Edit <code>App.jsx</code> and save to test HMR updates.
-      </p>
-      <p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        {" | "}
-        <a
-          className="App-link"
-          href="https://vitejs.dev/guide/features.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Vite Docs
-        </a>
-      </p>
-    </header>
+    </>
   );
 }

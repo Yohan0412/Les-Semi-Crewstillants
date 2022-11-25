@@ -159,6 +159,7 @@ function App() {
   return (
     <div className="App">
       <CardList data={data} />
+      <Home />
     </div>
   );
 }

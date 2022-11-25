@@ -1,9 +1,54 @@
-## Concept
+# Les semi-crewstillants
 
-This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
-It's pre-configured with a set of tools which'll help students produce industry-quality and easier-to-maintain code, while staying as simple as possible to use.
+## Hackathon 🎯
 
-## Setup & Use
+Thème imposé: Le Voyage
+
+Création d'un site sur la cuisine du monde  .
+Cook & Trip
+
+
+## Critère de notation
+
+> UX design  
+> aspect tech  
+> concept  
+> presentation
+
+## Étape 1️
+
+Concertation pour trouver une idée
+
+## Étape 2️
+
+> Elaboration Figma   
+> Création d'une API
+
+## Étape 3️
+Code de 
+
+> Homepage  
+> Header  
+> Footer  
+> création de card  
+> création de filtre  
+> création contact form  
+
+## Étape 4️
+
+Description de l'étape n°4
+
+---
+
+## Team 🚀
+
+> Yohan Rosano  
+> Sébastien Petaccia  
+> Guillaume Wernert  
+> Karim Aoudia  
+> Sébastien Artesi  
+
+---
 
 ### Project Initialization
 
@@ -22,9 +67,7 @@ It's pre-configured with a set of tools which'll help students produce industry-
 - `lint` : Runs validation tools, and refuses unclean code (will be executed on every _commit_)
 - `fix` : Fixes linter errors (run it if `lint` growls on your code !)
 
-## FAQ
-
-### Tools
+### Tools ⚙️
 
 - _Concurrently_ : Allows for several commands to run concurrently in the same CLI
 - _Husky_ : Allows to execute specific commands that trigger on _git_ events

@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../Carrousel.css";
+
 function Carrousel() {
   return (
     <div className="slider d-flex flex-column">
@@ -15,22 +17,40 @@ function Carrousel() {
           className="southAmerica w-50"
         />
       </div>
-      <img
-        src="https://asset-a.grid.id//crop/0x0:0x0/360x240/photo/2022/06/07/benua-asiajpg-20220607093406.jpg"
-        alt=""
-        className="asia w-100 py-1"
-      />
-      <div className="africaEurope d-flex w-100 gap-1">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQomdm7APGFSTwXby-p1XZbLERBKS7jOuFgWauNubOa1upgyZlcaq1VE5rV3BzqOfBQsto&usqp=CAU"
-          alt=""
-          className="africa w-45"
-        />
-        <img
-          src="https://voyage.aprr.fr/sites/default/files/styles/content_image/public/2022-06/Carte%20itin%C3%A9raire%202019_V9%20%281%29.jpg?itok=AtirYDPG"
-          alt=""
-          className="europe w-75"
-        />
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img src="src/assets/nan.jpg" className="d-block w-100" alt="..." />
+          <div className="sliderPres carousel-caption d-none d-md-block">
+            <h5 className="sliderTitle fw-bold">
+              Banh khot (palets de riz crevettes)
+            </h5>
+            <p>Il seraient originaires de la Côte centrale du sud.</p>
+          </div>
+        </div>
+        <div className="carousel-item">
+          <img src="src/assets/japan.jpg" className="d-block w-100" alt="..." />
+          <div className="sliderPres carousel-caption d-none d-md-block">
+            <h5 className="sliderTitle fw-bold">Karēraisu (Curry japonnais)</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div className="carousel-item">
+          <img
+            src="src/assets/indian.jpg"
+            className="d-block w-100"
+            alt="..."
+          />
+          <div className="sliderPres carousel-caption d-none d-md-block">
+            <h5 className="sliderTitle fw-bold">
+              Murghmakhani (Poulet au Beurre)
+            </h5>
+            <p>
+              Ce plat originaire de New Dehli a été préparé pour la première
+              fois en 1947 par les restaurateurs indiens Kundan Lal Gujral et
+              Kundan Lal Jaggi
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

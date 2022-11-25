@@ -1,14 +1,13 @@
 import "./App.css";
-import CardList from "@components/CardList";
-import Home from "@pages/Home";
+import LesRecettes from "@pages/LesRecette";
 import Home from "./pages/Home";
-import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <Home />
       <p>coucou les filles</p>
+      <LesRecettes />
     </div>
   );
 }

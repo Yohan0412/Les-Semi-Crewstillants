@@ -137,7 +137,6 @@ function App() {
   return (
     <div className="App">
       <Home />
-      <p>coucou les filles</p>
     </div>
   );
 }

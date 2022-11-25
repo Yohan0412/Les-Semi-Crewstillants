@@ -32,7 +32,7 @@ export default function Home() {
           Alors ?! On y va ?! 🚐
         </p>
       </div>
-      <div className="continentHome d-flex flex-column">
+      <div className="continentHome d-flex flex-column gap-1">
         <div className="america d-flex gap-1 w-100">
           <img
             src="src/assets/North_America.jpg"
@@ -45,7 +45,9 @@ export default function Home() {
             className="southAmerica w-50"
           />
         </div>
-        <img src="src/assets/African.jpg" alt="" className="europe w-75" />
+        <div className="africa gap-1 w-100">
+          <img src="src/assets/African.jpg" alt="" className="gap-1" />
+        </div>
 
         <div className="africaEurope d-flex w-100 gap-1">
           <img src="src/assets/Asian.jpg" alt="" className="africa w-50" />
